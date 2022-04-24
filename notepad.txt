@@ -1,0 +1,31 @@
+alert("hai hai
+//jka button tidak memiliki type maka settingan defaultnya adalah submit")
+//atribut onsubmit=addblog pada form digunakan untuk eventpreventdefault
+//createobjectURL () digunakan untuk menyimpan URL dari objek atau img agar tampil pada website
+//ambil elemen files pada console img yang sudah di upload
+//jika mau mengambil salah satu object dari beberapa value gunakan console.table(blog.title)
+//array sama seperti object panjang array digunakan untuk menyimpan berbagai data variabel, index bisa sampai 7 karna dimulai dari 0123456
+//array menggunakan ["","",12345, blog.content]
+// jika spesifik maka lakukan console.table(color [spesifikasi])
+//cara menampilkan image di website: URL.createurl(img.files[0])
+//selain console untuk memanggil variabel bisa menggunakan DOM dengan test.innerHTML+= blog.img namun muncul pada website
+// atau bisa juga menggunakan h1 test.innerHTML += `h1${}h1`
+//jika test.innertext += `` akan memberikan hasil inputan text bukan html
+//${this.title} digunakan ketika perulangan this juga ditujukan untuk merujuk kepada suatu object
+// += digunakan untuk menambahkan value ketika dilakukan submit berulangkali
+// jika = digunakan untuk me replace
+//blogs.push(variabel)
+// jika variabel terletak di luar tanda kurung kurawal maka variabel tersebut dapat di konsolkan dengan syarat console di letakkan dalam tanda kurung kurawal
+//array of object adalah penyimpanan object pada variabel global
+
+//perulangan
+//function renderBlog() digunakan untuk menjalankan perulangan tanpa menuliskan code dan bisa mengatur batasan jumlah yang diulangkan
+// for (let i = 0; i< 10; i++){
+//console.log()`Nilai i = ${i}`
+//}
+//let lengthData = blogs.length
+// yang dimaksud panjang data adalah seberapa banyak kolom yang diisi pada website
+// panjang data tidak dapat dilakukan pada data object
+//blogs.push () digunakan untuk menambhakan array
+//misal let blogs [blog, 1,2,3] kemudian ketikkan blogs.push
+//let blogContainer = document.getElementByID ("contents")
